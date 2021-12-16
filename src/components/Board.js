@@ -8,7 +8,7 @@ class Board extends Component {
     super(props);
 
     const tiles = [];
-    for (let index = 0; index < (10000 - 400); index++) tiles.push(index);
+    for (let index = 0; index < (100 - 10); index++) tiles.push(index);
 
     this.state = {
       tiles: tiles
@@ -19,7 +19,7 @@ class Board extends Component {
     return (
       <div className="board">
         {this.state.tiles.map( (tile) =>
-          <Block key={tile}/>
+          <Block key={tile} tileIndex={tile}/>
         )}
         <Slider />
       </div>

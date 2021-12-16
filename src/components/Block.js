@@ -7,6 +7,10 @@ class Block extends Component {
     this.state = {};
   }
 
+  handleClass = () => {
+
+  }
+
   render () {
     return (
       <div className="tile">
