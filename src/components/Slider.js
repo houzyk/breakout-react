@@ -12,16 +12,21 @@ class Slider extends Component {
     };
   }
 
+  handleClass = (tileIndex) => {
+    return (tileIndex > 3 && tileIndex < 6) ? "active slider" : "slider";
+  }
+
   render () {
     return (
       <>
         {this.state.sliderTiles.map( (sliderTile) =>
           <div
-            className="slider"
+            className={this.handleClass(sliderTile)}
             key={sliderTile}>
           </div>
         )}
       </>
+      
     );
   }
 }

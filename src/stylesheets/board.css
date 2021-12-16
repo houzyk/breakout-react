@@ -10,6 +10,6 @@
   cursor: pointer;
 }
 
-.slider {
+.slider.active {
   background-color: white;
 }
