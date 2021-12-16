@@ -1,9 +1,19 @@
 /* CSS PARTIALS */
 @import url(./stylesheets/board.css);
+@import url(./stylesheets/block.css);
 
 /* CSS RESETS */
 body, html, div {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0E0F19;
 }

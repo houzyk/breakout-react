@@ -1,0 +1,11 @@
+.board {
+  background-color: #466060;
+  height: 70vh;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+}
+
+.tile {
+  cursor: pointer;
+}
