@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Slider from './Slider';
+import Block from "./Block";
 
 class Board extends Component {
   constructor (props) {
@@ -18,10 +19,7 @@ class Board extends Component {
     return (
       <div className="board">
         {this.state.tiles.map( (tile) =>
-          <div
-            className="tile"
-            key={tile}>
-          </div>
+          <Block key={tile}/>
         )}
         <Slider />
       </div>
