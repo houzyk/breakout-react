@@ -9,3 +9,7 @@
 .tile {
   cursor: pointer;
 }
+
+.slider {
+  background-color: white;
+}
