@@ -17,7 +17,7 @@ class Board extends Component {
   render () {
     return (
       <div className="board">
-        { this.state.tiles.map( (tile) =>
+        {this.state.tiles.map( (tile) =>
           <div
             className="tile"
             key={tile}>
