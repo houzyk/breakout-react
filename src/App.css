@@ -1,0 +1,9 @@
+/* CSS PARTIALS */
+@import url(./stylesheets/board.css);
+
+/* CSS RESETS */
+body, html, div {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
