@@ -15,11 +15,19 @@ class Board extends Component {
     };
   }
 
+  handleKey = () => {
+
+  }
+
   render () {
+    window.addEventListener('keydown', this.handleKey)
     return (
       <div className="board">
         {this.state.tiles.map( (tile) =>
-          <Block key={tile} tileIndex={tile}/>
+          <Block
+            key={tile}
+            tileIndex={tile}
+            handleKeyFunction={this.handleKey}/>
         )}
         <Slider />
       </div>
