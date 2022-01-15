@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/breakout-react/static/css/main.24d21c01.css",
+    "main.js": "/breakout-react/static/js/main.a39849a7.js",
+    "index.html": "/breakout-react/index.html",
+    "main.24d21c01.css.map": "/breakout-react/static/css/main.24d21c01.css.map",
+    "main.a39849a7.js.map": "/breakout-react/static/js/main.a39849a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24d21c01.css",
+    "static/js/main.a39849a7.js"
+  ]
+}
